@@ -1,4 +1,3 @@
-
 <html xmlns="http://www.w3.org/1999/xhtml"></html>
 <head>
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org"/>
@@ -6,9 +5,21 @@
   <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes" />
 
   <title>Newsletter from Auth0: 2014-07-04</title>
+
+  <style type="text/css">
+
+@media all and (max-width: 500px) {
+ table[class="block"] {display: block; width: 100%;}
+ td[class="block"] {display: block; width: 100%;}
+ table[class="fullWidth"] {width: 100%;}
+ img{max-width: 100%;}
+ td{vertical-align: middle;}
+ .image{padding: 20px 0; height: 200px; margin-bottom: 10px;}
+}
+  </style>
 </head>
-<body bgcolor="#D0D2D3" style="width: 100%">
-  <table width="600" border="0" align="center" cellspacing="0" cellpadding="0">
+<body bgcolor="#D0D2D3">
+  <table id="main-table" width="600" class="block" border="0" align="center" cellspacing="0" cellpadding="0">
     <tr>
       <td><img src="http://cdn.auth0.com/newsletter/header.png" width="600"/></td>
     </tr>
@@ -17,62 +28,125 @@
         <p style="line-height: 30px; font-family: 'Helvetica Neue'; color: #4d4d4d">Lots of stuff happened in the past month, and we wanted to share the latest Auth0 updates with you:</p>
       </td>
     </tr>
+    <!-- beggining first row -->
     <tr bgcolor="white">
-      <td>
-        <table border="0" cellspacing="0" style="padding: 0 30px 30px 30px;">
+      <td style="padding: 20px" height="100%">
+        <!-- Row content -->
+
+        <table width="48%" class="block" align="left" style="margin: 0; padding: 0">
           <tr>
-            <td width="42%"><img src="https://i.cloudup.com/mC4Xm2zV4o.png" style="width: 100%"/></td>
-            <td width="4%"></td>
-            <td width="42%">
+            <td class="image" height="280" ><img src="https://i.cloudup.com/mC4Xm2zV4o.png" style="width: 100%"/></td>
+          </tr>
+        </table>
+
+        <table width="48%" class="block" align="right" style="margin: 0; padding: 0">
+          <tr>
+            <td>
               <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue'; letter-spacing: 1px;">WordPress + Auth0</h2>
               <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">We've just released a <a style="color: #44C7F4;" href="http://wordpress.org/plugins/auth0/">Wordpress plugin</a> that will let you do Single Sign On with all of our <a style="color: #44C7F4;" href="https://docs.auth0.com/identityproviders">Enterprise Providers</a> (AD, LDap, etc), <a style="color: #44C7F4;" href="https://docs.auth0.com/identityproviders">Social Providers</a> (Facebook, Twitter, Google, etc.) or with username and password. This plugin will also give you access to  Multifactor Auth, our User management dashboard and reporting and analytics. You can read <a style="color: #44C7F4;" href="https://auth0.com/blog/2014/07/02/wordpress-single-sign-on/">our blog post</a> with the announcement and try out <a style="color: #44C7F4;" href="http://auth0-wp.azurewebsites.net/wp-login.php">a demo here</a></p>
             </td>
           </tr>
         </table>
-        <table border="0" cellspacing="0" style="padding: 30px;">
+
+        <!-- end row content -->
+      </td>
+    </tr>
+    <!-- end first row -->
+
+    <!-- beggining second row -->
+    <tr bgcolor="white" valign="middle" height="100%">
+      <td style="padding: 20px; height: 100%"  height="100%">
+      <!-- Start row content -->        
+        <table width="48%" class="block" valign="middle" align="right" style="margin: 0; padding: 0">
+          <tr height="100%"  valign="middle">
+            <td height="240" class="image" style="padding: 0 30px; border: 1px solid #ccc;">
+              <img src="https://angularjs.org/img/AngularJS-large.png" style="width: 100%;"/>
+            </td>
+          </tr>
+        </table>
+
+        <table width="48%" class="block" align="left" style="margin: 0; padding: 0">
           <tr>
-            <td width="42%">
+            <td>
               <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue'; letter-spacing: 1px;">AngularJS SDK 1.0</h2>
               <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">Our <a style="color: #44C7F4;" href="https://github.com/auth0/auth0-angular">AngularJS SDK</a> has reached version 1.0. We've improved the <span style="font-style: italic;">redirect</span> support, we've added <span style="font-style: italic;">requiresLogin</span> parameter to routes so that if the user wants to get to an authenticated route he'll be redirected to login, we've improved our code quality and <a style="color: #44C7F4;" href="https://github.com/auth0/auth0-angular/blob/master/CHANGELOG.md#100">many many more features</a>. Try it out by installing the newest version from npm or bower.</p>
             </td>
-            <td width="4%">&nbsp;</td>
-            <td width="42%" style="padding: 0 30px; border: 1px solid #ccc;"><img src="https://angularjs.org/img/AngularJS-large.png" style="width: 100%"/></td>
           </tr>
         </table>
-        <table border="0" cellspacing="0" style="padding: 30px;">
-          <tr style="padding-top: 30px;">
-            <td width="42%" style="padding: 0 20px; border: 1px solid #ccc;"><img src="http://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg" style="width: 100%"/></td>
-            <td width="4%">&nbsp;</td>
-            <td width="42%">
-              <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue'; letter-spacing: 1px;">Auth0 + AngularJS/jQuery tutorial on CodeCademy</h2>
-              <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">If you want to get started with Auth0 using either AngularJS or jQuery, you can do our new CodeCademy course to learn in 8 simple steps how to implement authentication and call a secured API that you make. <a style="color: #44C7F4;" href="http://www.codecademy.com/courses/web-beginner-en-2jq60/1/1">Follow this link to start the angular tutorial</a> or <a style="color: #44C7F4;" href="http://www.codecademy.com/courses/web-beginner-en-2jq60/0/1">this other one for the jQuery one</a></p>
-            </td>
-          </tr>
-        </table>
-        <table border="0" cellspacing="0" style="padding: 30px;">
+        <!-- end row content -->
+      </td>
+    </tr>
+    <!-- end second row -->
+
+    <!-- beggining 3rd row -->
+    <tr bgcolor="white" height="100%">
+      <td style="padding: 20px" height="100%">
+        <table width="48%"  class="block" align="left" style="margin: 0; padding: 0">
           <tr>
-            <td width="42%">
-              <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue'; letter-spacing: 1px;">Backendless apps with Auth0 + Firebase</h2>
-              <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">Learn how to create Backendless apps with Authentication using Firebase + Auth0. Read all about it in the <a style="color: #44C7F4;" href="https://www.firebase.com/blog/2014-06-05-auth0-guest-blog.html">guest post we've written</a> on firebase's blog</p>
-            </td>
-            <td width="4%">&nbsp;</td>
-            <td width="42%" style="padding: 0 30px; border: 1px solid #ccc;"><img src="http://szimek.github.io/presentation-firebase-intro/images/firebase_logo.png" style="width: 100%"/></td>
+            <td height="300" class="image" style="padding: 0 30px; border: 1px solid #ccc;"><img src="http://cdn-production.codecademy.com/assets/logo/logo--dark-blue-bf11002ce1caecdfb9fec8d3286b8a8d.svg" style="width: 100%"/></td>
           </tr>
         </table>
-        <table border="0" cellspacing="0" style="padding: 30px;">
-          <tr style="padding-top: 30px;">
-            <td width="42%" style="padding: 0 20px; border: 1px solid #ccc;"><img src="http://appery.io/wp-content/uploads/appery.io_1.png" style="width: 100%"/></td>
-            <td width="4%">&nbsp;</td>
-            <td width="42%">
-              <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue'; letter-spacing: 1px;">Auth0 + Appery.io Webinar</h2>
-              <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">Join us on August 6 at 11AM PDF to learn about using Auth0 with Appery to build secure mobile apps in the cloud. <a style="color: #44C7F4;" href="http://www.exadel.com/08062014Webinar">Click here</a> to join the Webinar, and check out the <a style="color: #44C7F4;" href="http://blog.appery.io/2014/07/appery-io-and-auth0-join-forces-to-simplify-mobile-app-development-with-identity-management/">blog post</a> that Appery has written about the integration.</p>
+
+        <table width="48%" class="block" align="right" style="margin: 0; padding: 0">
+          <tr>
+            <td>
+              <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue'; letter-spacing: 1px; line-height: 1.4em">Auth0 + AngularJS/jQuery tutorial on CodeCademy</h2>
+              <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">If you want to get started with Auth0 using either AngularJS or jQuery, you can do our new CodeCademy course to learn in 8 simple steps how to implement authentication and call a secured API that you make. <a style="color: #44C7F4;" href="http://www.codecademy.com/courses/web-beginner-en-2jq60/1/1">Follow this link to start the angular tutorial</a> or <a style="color: #44C7F4;" href="http://www.codecademy.com/courses/web-beginner-en-2jq60/0/1">this other one for the jQuery one</a></p>
             </td>
           </tr>
         </table>
       </td>
     </tr>
+    <!-- end third column -->
+
+
+
+    <!-- beggining 3rd row -->
     <tr bgcolor="white">
-      <td style="padding:  30px; ">
+      <td style="padding: 20px">
+        <table width="48%" height="100%" class="block" align="right" style="margin: 0; padding: 0">
+          <tr>
+            <td height="200" class="image" style="padding: 0 30px; border: 1px solid #ccc;"><img src="http://szimek.github.io/presentation-firebase-intro/images/firebase_logo.png" style="width: 100%"/></td>
+          </tr>
+        </table>
+
+        <table width="48%" class="block" align="left" style="margin: 0; padding: 0">
+          <tr>
+            <td>
+              <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue';  line-height: 1.4em; letter-spacing: 1px;">Backendless apps with Auth0 + Firebase</h2>
+              <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">Learn how to create Backendless apps with Authentication using Firebase + Auth0. Read all about it in the <a style="color: #44C7F4;" href="https://www.firebase.com/blog/2014-06-05-auth0-guest-blog.html">guest post we've written</a> on firebase's blog</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- end third column -->
+
+
+    <tr bgcolor="white">
+      <td style="padding: 20px; vertical-align: middle"  height="100%">
+        
+        <table width="48%" height="100%" class="block" align="left" style="margin: 0; padding: 0">
+          <tr>
+            <td height="220" class="image" style="padding: 0 20px; border: 1px solid #ccc;"><img src="http://appery.io/wp-content/uploads/appery.io_1.png" style="width: 100%"/></td>
+          </tr>
+        </table>
+
+        <table width="48%" class="block" align="right" style="margin: 0; padding: 0">
+          <tr>
+            <td>
+              <h2 style="font-weight: 100; color: black; line-height: 26px; font-family: 'Helvetica Neue';  line-height: 1.4em; letter-spacing: 1px;">Auth0 + Appery.io Webinar</h2>
+        <p style="line-height: 22px; font-size: 13px; font-family: 'Helvetica Neue'; color: #666">Join us on August 6 at 11AM PDF to learn about using Auth0 with Appery to build secure mobile apps in the cloud. <a style="color: #44C7F4;" href="http://www.exadel.com/08062014Webinar">Click here</a> to join the Webinar, and check out the <a style="color: #44C7F4;" href="http://blog.appery.io/2014/07/appery-io-and-auth0-join-forces-to-simplify-mobile-app-development-with-identity-management/">blog post</a> that Appery has written about the integration.</p>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+
+
+    <tr bgcolor="white">
+      <td style="padding: 0 30px 30px 30px; ">
         <p style="line-height: 30px; font-family: 'Helvetica Neue'; color: #4d4d4d">We're always here to help! Email us at <a style="color: #44C7F4;" href="mailto:support@auth0.com">support@auth0.com</a>, chat with us on <a style="color: #44C7F4;" href="http://chat.auth0.com/">chat.auth0.com</a>, or mention us <a href="https://twitter.com/authzero">@authzero</a> on Twitter.</p>
         <p style="line-height: 30px; font-family: 'Helvetica Neue'; color: #4d4d4d"><strong>Happy Authentication!</strong><br/><em style="font-size: 12px;">Jon, Eugenio, Matias, Gonto, Federico, Jose, Jeremy, Alberto, Iaco, Cristian, Ricky and Yenkel</em></p>
       </td>
@@ -81,4 +155,5 @@
       <td><a href="http://twitter.com/authzero" style="display: block; text-align: center; margin: 20px 0 60px 0; background: #55acee; color: white; text-transform: uppercase; border-radius: 3px; font-family: 'Helvetica Neue'; font-size: 12px; letter-spacing: 1px; font-weight: bold; text-decoration: none; padding: 20px;"><img src="https://cdn.auth0.com/newsletter/twitter-logo.png" style="margin-bottom: -4px; margin-right: 10px;" width="20"/><span>Follow Us On Twitter</span></a></td>
     </tr>
   </table>
+  <!-- #main-table -->
 </body>
